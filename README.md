@@ -9,9 +9,9 @@ Current systems usually associate the whole document to one or more authors. Or,
 
 Changing how authors are reimbursed is the first part of a plan to reboot how we structure our communities. Shared understanding is the glue that holds together members of each community and allows for decision making to be vote based rather than enclosed in hierarchies. Through changing how we tell our stories and how we structure the content that so often is the basis for learning, we can have a significant impact on the sensibleness and cohesion of communities of any size.
 
-You can read more about this on the [ homepage](http://duncan.net.nz).
+You can read more about this on the [homepage](http://duncan.net.nz).
 
 To Do List:
 -----------
 
-If you wish to knowor discuss where you can contribute, the wiki here on Github currently contains the discussion on what needs to be done.
+If you wish to know or discuss where you can contribute, the [wiki here on Github](https://github.com/PaddyPatPat/Duncan.net.nz/wiki) currently contains the discussion on what needs to be done.
