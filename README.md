@@ -16,7 +16,8 @@ To Do List:
 The list here is semi-ordered so that the things at the top are often simpler or more pressing to get done.
 
 * Add a menu to the website so that each of the documents currently available can be seen.
-* 
+* Create a home page with links to each of the current top level articles. 
+* Wrap the page's top image in contributor code so that it can be assigned to whomever for reimbursement. 
 * Add a percentage beside each contributors name in the document, specifying how much they have contributed.
 * Add a way for images to be added into the content. Each image needs to be wrapped in contributor and reference code like the text is.
 * Change contributors who were quoted into quotes so that people can be recognised for adding quotes to the current content.
