@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="../stylesheet.xsl"?>
+
+<!DOCTYPE page 
+[
+
+	<!ELEMENT content (#PCDATA)>
+
+	<!-- Contributors -->
+
+	<!ENTITY AlannaKrause "
+		<conID>AlannaKrause</conID>
+		<name>Alanna Krause</name>
+		<homepage>https://www.loomio.org/about</homepage>
+	">
+
+	<!ENTITY BenKnight "
+		<conID>BenKnight</conID>
+		<name>Ben Knight</name>
+		<homepage>https://www.loomio.org/about</homepage>
+	">
+
+	<!ENTITY BillyWimsatt "
+		<conID>BillyWimsatt</conID>
+		<name>Billy Wimsatt</name>
+		<homepage>https://billywimsatt.wordpress.com/about/</homepage>
+	">
+
+	<!ENTITY JohnStahl "
+		<conID>JohnStahl</conID>
+		<name>John Stahl</name>
+		<homepage>http://jstahl.org/about-me/</homepage>
+	">
+
+	<!ENTITY PatrickDuncan "
+		<conID>PatrickDuncan</conID>
+		<name>Patrick Duncan</name>
+		<homepage>http://duncan.net.nz</homepage>
+	">
+
+	<!ENTITY RichardBartlett "
+		<conID>RichardBartlett</conID>
+		<name>Richard Bartlett</name>
+		<homepage>https://www.loomio.org/about</homepage>
+	">
+	
+	<!ENTITY SeanTilley "
+		<conID>SeanTilley</conID>
+		<name>Sean Tilley</name>
+		<homepage>https://plus.google.com/+SeanTilley/posts</homepage>
+	">
+
+	<!ENTITY VivienMaidaborn "
+		<conID>VivienMaidaborn</conID>
+		<name>Vivien Maidaborn</name>
+		<homepage>https://www.loomio.org/about</homepage>
+	">
+
+	<!-- References -->
+
+	<!ENTITY AreNetNeutralityAdvocatingRedditorsAboutToStartPAC "
+		<refID>AreNetNeutralityAdvocatingRedditorsAboutToStartPAC</refID>
+		<refTitle>Are Net-Neutrality-Advocating Redditors About to Start a PAC?</refTitle>
+		<author>Nick Judd</author>
+		<source>http://techpresident.com/blog-entry/are-net-neutrality-advocating-redditors-about-start-pac</source>
+		<year>2010</year>
+	">
+
+	<!ENTITY CanSocialSoftwareChangeTheWorldLoomioJustMight "
+		<refID>CanSocialSoftwareChangeTheWorldLoomioJustMight</refID>
+		<refTitle>Can Social Software Change the World? Loomio Just Might</refTitle>
+		<author>Micah L. Sifry</author>
+		<source>http://techpresident.com/news/wegov/23517/can-social-software-change-world-loomio-just-might</source>
+		<year>2013</year>
+	">
+
+	<!ENTITY GroupDecisionMakingSoftwareReadyToRun "
+		<refID>GroupDecisionMakingSoftwareReadyToRun</refID>
+		<refTitle>Group decision-making software ready to run</refTitle>
+		<author>Tom Pullar-Strecker</author>
+		<source>http://www.stuff.co.nz/technology/digital-living/9050560/Group-decision-making-software-ready-to-run</source>
+		<year>2013</year>
+	">
+	
+	<!ENTITY LoomioCelsiasNewZealand "
+		<refID>LoomioCelsiasNewZealand</refID>
+		<refTitle>Loomio - Celsias New Zealand</refTitle>
+		<author>Sophie Jerram</author>
+		<source>http://www.celsias.co.nz/article/loomio/</source>
+		<year>2013</year>
+	">
+
+	<!ENTITY LoomioMadeByGroupToMakeGroupDecisions "
+		<refID>LoomioMadeByGroupToMakeGroupDecisions</refID>
+		<refTitle>Loomio made by group to make group decisions – Alanna Krause</refTitle>
+		<author>Jose Mathias</author>
+		<source>http://nzentrepreneurs.org/loomio-founder-alanna-krause/</source>
+		<year>2013</year>
+	">
+
+	<!ENTITY LoomioTheKiwiWebAppToDemocratiseDecisionMaking "
+		<refID>LoomioTheKiwiWebAppToDemocratiseDecisionMaking</refID>
+		<refTitle>Loomio: The Kiwi web app out to democratise decision-making</refTitle>
+		<author>Esther Goh</author>
+		<source>http://www.idealog.co.nz/blog/2012/05/loomio</source>
+		<year>2012</year>
+	">
+
+	<!ENTITY LoomioTwoPagerMarch2014 "
+		<refID>LoomioTwoPagerMarch2014</refID>
+		<refTitle>Loomio - two pager March 2014</refTitle>
+		<author>Loomio</author>
+		<source>http://loomio.files.wordpress.com/2013/08/loomio-two-pager-march-2014.pdf</source>
+		<year>2014</year>
+	">
+
+	<!ENTITY OnlineOnBooze "
+		<refID>OnlineOnBooze</refID>
+		<refTitle>Online on booze</refTitle>
+		<author>Amanda Witherell</author>
+		<source>http://www.capitaltimes.co.nz/Online-on-booze</source>
+		<year>2013</year>
+	">
+
+	<!ENTITY SocialInnovatorAnAgentForChange "
+		<refID>SocialInnovatorAnAgentForChange</refID>
+		<refTitle>Social innovator an agent for change</refTitle>
+		<author>Nikki MacDonald</author>
+		<source>http://www.stuff.co.nz/dominion-post/capital-life/8198255/Social-innovator-an-agent-for-change</source>
+		<year>2013</year>
+	">
+
+		
+	<!-- Entity template 
+	
+	<!ENTITY entityReference "
+		<refID></refID>
+		<refTitle></refTitle>
+		<author></author>
+		<source></source>
+		<journal></journal>
+		<year></year>
+		<photo></photo>
+		<amazon>
+			<image></image>
+			<amazonImage></amazonImage>
+		</amazon>
+	">
+	
+	-->
+]>
+
+<page>
+
+<!-- Attribution Code template
+
+<attribution>
+	<reference></reference>
+	<contributor>&PatrickDuncan;</contributor>
+	<content></content>
+</attribution>
+
+-->
+
+
+<pageImage>
+	<attribution>
+		<contributor>&PatrickDuncan;</contributor>
+		<link>images/loomio2.png</link>
+		<alt>Loomio logo</alt>
+	</attribution>
+</pageImage>
+
+<title>
+	<attribution>
+		<contributor>&PatrickDuncan;</contributor>
+		<content></content>
+	</attribution>
+</title>
+
+<metaDescription>
+	<attribution>
+		<contributor>&PatrickDuncan;</contributor>
+		<content>A summary of Loomio's world view for collaborative project discussions.</content>
+	</attribution>
+</metaDescription>
+
+<section>
+	<title>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>What is Loomio?</content>
+		</attribution>
+	</title>
+	<p>
+		<attribution>
+			<reference>&LoomioTheKiwiWebAppToDemocratiseDecisionMaking;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Loomio is a free open-source web app to better enable groups to </content>
+		</attribution>
+		<attribution>
+			<reference>&LoomioTwoPagerMarch2014;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>build shared understanding, </content>
+		</attribution>
+		<attribution>
+			<reference>&LoomioTheKiwiWebAppToDemocratiseDecisionMaking;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>reach consensus and make decisions together. </content>
+		</attribution>
+		<attribution>
+			<reference>&SocialInnovatorAnAgentForChange;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>It transforms electronically-assisted group decision-making from a tangle of email discussion with no clear outcome, to a simple process incorporating discussion, making proposals every member can vote on and explain their position, and guiding groups toward a decision. </content>
+		</attribution>
+	</p>
+</section>
+
+<section>
+	<title>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>What problem is Loomio trying to solve?</content>
+		</attribution>
+	</title>
+	<p>
+		<attribution>
+			<reference>&CanSocialSoftwareChangeTheWorldLoomioJustMight;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Few people experience working in a group where everyone actually gets a meaningful chance to participate in the decisions that group makes. Or, to look at it from the converse, most of us belong to groups where we actually don't have that much of a say in what the group does. This isn't to say that big groups never manage to make coherent decisions using the tools we have. Reddit.com is constantly spawning all kinds of collective actions, like online fundraisers for people who need expensive medical operations or flash-mobs around media moments. </content>
+		</attribution>
+		<attribution>
+			<reference>&AreNetNeutralityAdvocatingRedditorsAboutToStartPAC;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>One impassioned Redditor's rant about the supposed death of net neutrality led to the formation of a bona-fide political action committee. </content>
+		</attribution>
+	</p>
+	<p>
+		<attribution>
+			<reference>&CanSocialSoftwareChangeTheWorldLoomioJustMight;</reference>
+			<contributor>&BillyWimsatt;</contributor>
+			<content>Left to their own devices, most groups don't have a clue how to govern themselves effectively. When you encourage people to get together and form groups, you're essentially setting them up to get bogged down in process and power struggles that make people never want to be part of a movement again. If there was some way to scale good group process, it could be very helpful in facilitating self-organizing. </content>
+		</attribution>
+	</p>
+	<p>
+		<attribution>
+			<reference>&GroupDecisionMakingSoftwareReadyToRun;</reference>
+			<contributor>&BenKnight;</contributor>
+			<content>Similarly for face-to-face collective decision making. When it runs badly, the process falls apart and you are stuck in meetings forever and nothing gets decided. </content>
+		</attribution>
+		<attribution>
+			<reference>&CanSocialSoftwareChangeTheWorldLoomioJustMight;</reference>
+			<contributor>&BenKnight;</contributor>
+			<content>The process breaks down, and everyone can walk away feeling disempowered and pissed off. </content>
+		</attribution>
+		<attribution>
+			<reference>&CanSocialSoftwareChangeTheWorldLoomioJustMight;</reference>
+			<contributor>&JohnStahl;</contributor>
+			<content>Online deliberation is remarkably hard, and somewhere between difficult and impossible using lowest-common-denominator online tools like email, surveys, etc. It's particularly bad in any sort of public governance process, where participation is open-to-the-public, and the participants have little prior history together and expect minimal future collaboration." </content>
+		</attribution>
+	</p>
+	<p>
+		<attribution>
+			<reference>&LoomioTwoPagerMarch2014;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>It's hard to get everyone together to make decisions. This is because of logistical requirements for travel or timezones, as well as their expense and time required. </content>
+		</attribution>
+		<attribution>
+			<reference>&CanSocialSoftwareChangeTheWorldLoomioJustMight;</reference>
+			<contributor>&BenKnight;</contributor>
+			<content>Needing everyone to be in the same place at the same time limits the accessibility of a process. Instead, the way to get them to participate is to break down the practical barriers of time and geography. </content>
+		</attribution>
+		<attribution>
+			<reference>&LoomioTwoPagerMarch2014;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Long and complex email threads don't help either. </content>
+		</attribution>
+	</p>
+	<p>
+		<attribution>
+			<reference>&LoomioTheKiwiWebAppToDemocratiseDecisionMaking;</reference>
+			<contributor>&RichardBartlett;</contributor>
+			<content>We've reached the limits of what can be achieved by the paradigm of one person in charge telling us what to do. </content>
+		</attribution>
+		<attribution>
+			<reference>&LoomioCelsiasNewZealand;</reference>
+			<contributor>&VivienMaidaborn;</contributor>
+			<content>In terms of sustainability and people – the mass voice – the collective voice is missing. It’s getting tied up in experts rebutting each other’s expertise, and politicians caught up in what’s possible in a short-term economic returns model – neither constitute the way forward. </content>
+		</attribution>
+	</p>
+</section>
+
+<section>
+	<title>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Today's Online Tools</content>
+		</attribution>
+	</title>
+	<p>
+		<attribution>
+			<reference>&CanSocialSoftwareChangeTheWorldLoomioJustMight;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>None of today's online tools - email, list-servs, blogs, chats, wikis - are built to make it easy for large groups to make decisions together. Groups make do with what they have and members put up with communication annoyances constantly (or, as many organizers know, they drift away because ongoing communications can be a drag). </content>
+		</attribution>
+	</p>
+	<p>
+		<attribution>
+			<reference>&CanSocialSoftwareChangeTheWorldLoomioJustMight;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Current tools are bad at building consensus from disparate points of view. </content>
+		</attribution>
+		<attribution>
+			<reference>&CanSocialSoftwareChangeTheWorldLoomioJustMight;</reference>
+			<contributor>&SeanTilley;</contributor>
+			<content>Mailing lists and Github issues put the barrier of entry too high for non-technical users that still want to contribute ideas. </content>
+		</attribution>
+		<attribution>
+			<reference>&CanSocialSoftwareChangeTheWorldLoomioJustMight;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>If tools like email are bad for hammering out consensus among disparate views, maybe it's no wonder the Internet seems to be much better at mobilizing "stop" energy than at galvanizing "go" energy. It's much easier to rally around an obvious consensus that may already be shared--"Stop X" from happening--than it is to use the internet to build a new shared agreement, even among a group of people who already may think they have a lot in common. And while our brains' wiring and our cultural inheritances may explain a lot of this problem, at least part of it is also due to bad tools. </content>
+		</attribution>
+	</p>
+</section>
+
+<section>
+	<title>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Loomio's Values and Principles</content>
+		</attribution>
+	</title>
+	<p>
+		<attribution>
+			<reference>&CanSocialSoftwareChangeTheWorldLoomioJustMight;</reference>
+			<contributor>&BenKnight;</contributor>
+			<content>Loomio's core purpose is to make it as easy as possible for as many people as possible to participate in the decisions that affect them. </content>
+		</attribution>
+		<attribution>
+			<reference>&LoomioMadeByGroupToMakeGroupDecisions;</reference>
+			<contributor>&AlannaKrause;</contributor>
+			<content>By bringing more diverse voices into the conversation, you will end up with better outcomes. </content>
+		</attribution>
+		<attribution>
+			<reference>&LoomioTheKiwiWebAppToDemocratiseDecisionMaking;</reference>
+			<contributor>&RichardBartlett;</contributor>
+			<content>In a good conversation you have a lot of threads. The idea of this tool is to tie those threads together in a beautiful tapestry. </content>
+		</attribution>
+		<attribution>
+			<reference>&LoomioTheKiwiWebAppToDemocratiseDecisionMaking;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Loomio's name is loosely derived from the word 'loom', as in weaving. </content>
+		</attribution>
+		<attribution>
+			<reference>&CanSocialSoftwareChangeTheWorldLoomioJustMight;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Loomio looks to hit the sweet spot between individual voice and collective decision. </content>
+		</attribution>
+		<attribution>
+			<reference>&LoomioMadeByGroupToMakeGroupDecisions;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>When people collaborate effectively, more people go away happier because more people have contributed to the common goal. It’s like a potluck where everyone brings cake and ice-cream. </content>
+		</attribution>
+	</p>
+	<p>
+		<attribution>
+			<reference>&LoomioCelsiasNewZealand;</reference>
+			<contributor>&BenKnight;</contributor>
+			<content>Money should never be a barrier to the use of Loomio. </content>
+		</attribution>
+		<attribution>
+			<reference>&LoomioCelsiasNewZealand;</reference>
+			<contributor>&BenKnight;</contributor>
+			<content>Loomio wants to maintain independence from government and profit-maximizing business. </content>
+		</attribution>
+		<attribution>
+			<reference>&LoomioMadeByGroupToMakeGroupDecisions;</reference>
+			<contributor>&AlannaKrause;</contributor>
+			<content>As a social enterprise, Loomio has been on a learning journey to both create a thriving business and achieve their social mission. They believe that by designing the organisation right, succeeding at each of those will positively impact the other. </content>
+		</attribution>
+		<attribution>
+			<reference>&LoomioCelsiasNewZealand;</reference>
+			<contributor>&BenKnight;</contributor>
+			<content>Loomio's cooperative social enterprise needs to thrive to achieve large-scale positive social impact internationally. </content>
+		</attribution>
+	</p>
+</section>
+
+<section>
+	<title>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Loomio's Vision</content>
+		</attribution>
+	</title>
+	<p>
+		<attribution>
+			<reference>&LoomioTwoPagerMarch2014;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>The internet can be used to make it easy for anyone to participate in decisions that affect them </content>
+		</attribution>
+		<attribution>
+			<reference>&GroupDecisionMakingSoftwareReadyToRun;</reference>
+			<contributor>&BenKnight;</contributor>
+			<content>through creating a tool, accessible to as many people as possible for participatory decision-making at every level from workplaces and neighbourhoods to national government. </content>
+		</attribution>
+		<attribution>
+			<reference>&LoomioMadeByGroupToMakeGroupDecisions;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>By making collaboration on decisions within a group easy and effective, </content>
+		</attribution>
+		<attribution>
+			<reference>&LoomioTwoPagerMarch2014;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Loomio can make participating in decisions, big and small, a daily thing, like checking your email every morning. </content>
+		</attribution>
+	</p>
+</section>
+
+<section>
+	<title>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Loomio's Goals</content>
+		</attribution>
+	</title>
+	<ul>
+		<li>
+			<attribution>
+				<reference>&GroupDecisionMakingSoftwareReadyToRun;</reference>
+				<contributor>&PatrickDuncan;</contributor>
+				<content>Having Loomio used by 50 million people within five years. </content>
+			</attribution>
+		</li>
+		<li>
+			<attribution>
+				<reference>&GroupDecisionMakingSoftwareReadyToRun;</reference>
+				<contributor>&VivienMaidaborn;</contributor>
+				<content>To make a surplus, but not to be profit-maximising. </content>
+			</attribution>
+			<attribution>
+				<reference>&GroupDecisionMakingSoftwareReadyToRun;</reference>
+				<contributor>&BenKnight;</contributor>
+				<content>Social impact comes first for the co-operative, and revenue generation is a tool to achieve that. </content>
+			</attribution>
+		</li>
+	</ul>
+</section>
+
+<section>
+	<title>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Who is it for?</content>
+		</attribution>
+	</title>
+	<p>
+		<attribution>
+			<reference>&LoomioMadeByGroupToMakeGroupDecisions;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Loomio is for people who want to work well together to execute collective action but who are frustrated by the limitations of big messy email threads or trying to get everyone to a meeting at the same time. </content>
+		</attribution>
+	</p>
+</section>
+
+<section>
+	<title>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Requirements and Constraints</content>
+		</attribution>
+	</title>
+	<p>
+		<attribution>
+			<reference>&LoomioMadeByGroupToMakeGroupDecisions;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Groups should be able to be distributed and asynchronous. This requires that meetings happen online. </content>
+		</attribution>
+		<attribution>
+			<reference>&LoomioTwoPagerMarch2014;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>However, new technologies tend to have the greatest social impact once they becomes integrated into daily life. </content>
+		</attribution>
+	</p>
+</section>
+
+<section>
+	<title>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>How does Loomio work?</content>
+		</attribution>
+	</title>
+	<p>
+		<attribution>
+			<reference>&OnlineOnBooze;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Loomio shows discussions on the left and decisions on the right. </content>
+		</attribution>
+	</p>
+	<p>
+		<attribution>
+			<reference>&LoomioTheKiwiWebAppToDemocratiseDecisionMaking;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>It provides a central place for discussions while positioning the proposal at the top of the screen to keep the discussion on topic. Member summary statements let everyone get their views in. </content>
+		</attribution>
+		<attribution>
+			<reference>&CanSocialSoftwareChangeTheWorldLoomioJustMight;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>It's easy for anyone in a Loomio group to initiate a topic for conversation. It's also easy for a group member to form a sub-group, like a committee that works on a narrower topic area. </content>
+		</attribution>
+	</p>
+	<p>
+		<attribution>
+			<reference>&CanSocialSoftwareChangeTheWorldLoomioJustMight;</reference>
+			<contributor>&BenKnight;</contributor>
+			<content>It's important to build shared understanding before a decision is reached by the group. This means that when you get to the outcome, it's not that everyone has to agree to the outcome, they just have to agree that its the best outcome the group can reach at that time. </content>
+		</attribution>
+		<attribution>
+			<reference>&LoomioCelsiasNewZealand;</reference>
+			<contributor>&BenKnight;</contributor>
+			<content>It's also important that members do not come to a decision until the discussion has aired all points of view. Everyone has an opportunity to raise any concerns, and collaboratively develop their thinking as a group. This unlocking of collective wisdom leads groups to arrive at better decisions than anyone would have made on their own. </content>
+		</attribution>
+	</p>
+	<p>
+		<attribution>
+			<reference>&CanSocialSoftwareChangeTheWorldLoomioJustMight;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>When people are ready to make decisions, it's easy for any group member to offer a proposal up for a vote. They can choose to vote either yes, no, abstain or block. </content>
+		</attribution>	
+		<attribution>
+			<reference>&OnlineOnBooze;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Beside each decision is displayed the deadline for that decision as well as a pie graph showing the level of agreement. </content>
+		</attribution>
+		<attribution>
+			<reference>&CanSocialSoftwareChangeTheWorldLoomioJustMight;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>This means that at any point in the conversation about a decision, members of the group can see what the group as a whole is thinking. </content>
+		</attribution>
+		<attribution>
+			<reference>&OnlineOnBooze;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Finally, when users "vote" on an idea they also leave a brief Twitter-length summary, so the result is not just the hard numbers but a summary of everyone's concerns. </content>
+		</attribution>
+	</p>
+</section>
+
+<section>
+	<title>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>What doesn't Loomio do?</content>
+		</attribution>
+	</title>
+	<p>
+		<attribution>
+			<reference>&CanSocialSoftwareChangeTheWorldLoomioJustMight;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Loomio doesn't eliminate the need for smart community moderation. Groups using the tool still need to have shared norms about their purpose and practices. </content>
+		</attribution>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>This shared understanding can be built through the discussions hosted on Loomio though. </content>
+		</attribution>
+	</p>
+</section>
+
+<section>
+	<title>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Loomio's History and Structure</content>
+		</attribution>
+	</title>
+	<p>
+		<attribution>
+			<reference>&CanSocialSoftwareChangeTheWorldLoomioJustMight;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Loomio was born in the fertile ashes of New Zealand's Occupy movement. </content>
+		</attribution>
+		<attribution>
+			<reference>&LoomioTheKiwiWebAppToDemocratiseDecisionMaking;</reference>
+			<contributor>&RichardBartlett;</contributor>
+			<content>It was inspired by the Occupy movement, and how protesters organised city camps and the like without any kind of hierarchical structure. </content>
+		</attribution>
+	</p>
+	<p>
+		<attribution>
+			<reference>&GroupDecisionMakingSoftwareReadyToRun;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Loomio, which is owned by nine of its 12 fulltime staff, </content>
+		</attribution>
+		<attribution>
+			<reference>&LoomioCelsiasNewZealand;</reference>
+			<contributor>&BenKnight;</contributor>
+			<content>is a co-operative social enterprise, owned by those who work on it. </content>
+		</attribution>
+		<attribution>
+			<reference>&CanSocialSoftwareChangeTheWorldLoomioJustMight;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Loomio's team got a desk at Enspiral's office and started working, with three core developers doing the coding and others working on the effort's social enterprise model, its legal structure, and soon, the many local and international clients interested in using it. </content>
+		</attribution>
+	</p>
+	<p>
+		<attribution>
+			<reference>&GroupDecisionMakingSoftwareReadyToRun;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Loomio's directors, and "friends and family", put about $160,000 into the venture, </content>
+		</attribution>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>while the other source of income has been from payment for use of the service. </content>
+		</attribution>	
+		<attribution>
+			<reference>&LoomioMadeByGroupToMakeGroupDecisions;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Loomio is very usable because the consumer picks the price of the service. </content>
+		</attribution>
+		<attribution>
+			<reference>&LoomioMadeByGroupToMakeGroupDecisions;</reference>
+			<contributor>&AlannaKrause;</contributor>
+			<content>Loomio considers it essential to provide value to paying users so that it can thrive financially, without money becoming a barrier to groups to do great things in their communities. A sliding scale pricing model, and trust in our users to set the scale fairly </content>
+		</attribution>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>has been the model used to meet these requirements. </content>
+		</attribution>
+	</p>
+</section>
+
+<footer>
+	
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Share your thoughts. Click the comment speech bubbles beside each paragraph. Improvements will be incorporated and attributed to you, and then the comment deleted. </content>
+		</attribution>
+	
+</footer>
+
+</page>

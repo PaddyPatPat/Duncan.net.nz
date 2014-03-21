@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="stylesheet.xsl"?>
+
+<!DOCTYPE page 
+[
+
+	<!ELEMENT content (#PCDATA)>
+
+	<!-- Contributors -->
+	<!ENTITY PatrickDuncan "
+		<conID>PatrickDuncan</conID>
+		<name>Patrick Duncan</name>
+		<homepage>http://duncan.net.nz</homepage>
+	">
+	
+	<!-- References -->
+	<!ENTITY EdwardSnowdenNSADisclosures "
+		<refID>EdwardSnowdenNSADisclosures</refID>
+		<refTitle>Wikipedia: Edward Snowden</refTitle>
+		<source>https://en.wikipedia.org/wiki/Edward_Snowden#Global_surveillance_leaks</source>
+	">
+
+	<!ENTITY Freakonomics "
+		<refID>Freakonomics</refID>
+		<refTitle>Freakonomics: A Rogue Economist Explores the Hidden Side of Everything</refTitle>
+		<author>Steven D. Levitt &amp; Stephen J. Dubner</author>
+		<source>http://www.amazon.com/gp/product/0061956279/ref=as_li_ss_il?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0061956279&amp;linkCode=as2&amp;tag=duncanstorepl-20</source>
+		<amazon>
+			<image>http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=0061956279&amp;Format=_SL110_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=duncanstorepl-20</image>
+			<amazonImage>http://ir-na.amazon-adsystem.com/e/ir?t=duncanstorepl-20&amp;l=as2&amp;o=1&amp;a=0061956279</amazonImage>
+		</amazon>
+	">
+
+	<!ENTITY HereComesEverybody "
+		<refID>HereComesEverybody</refID>
+			<refTitle>Here Comes Everybody: The Power of Organizing Without Organizations</refTitle>
+		<author>Clay Shirky</author>
+		<source>http://www.amazon.com/gp/product/0143114948/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0143114948&amp;linkCode=as2&amp;tag=duncanstorepl-20</source>
+		<amazon>
+			<image>http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=0143114948&amp;Format=_SL110_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=duncanstorepl-20</image>
+			<amazonImage>http://ir-na.amazon-adsystem.com/e/ir?t=duncanstorepl-20&amp;l=as2&amp;o=1&amp;a=0143114948</amazonImage>
+		</amazon>
+	">
+	
+	<!ENTITY OwningOurFuture "
+		<refID>OwningOurFuture</refID>
+		<refTitle>Owning Our Future</refTitle>
+		<author>Marjorie Kelly</author>
+		<source>http://www.amazon.com/gp/product/B00822JCN4/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00822JCN4&amp;linkCode=as2&amp;tag=duncanstorepl-20</source>
+		<amazon>
+			<image>http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B00822JCN4&amp;Format=_SL110_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=duncanstorepl-20</image>
+			<amazonImage>http://ir-na.amazon-adsystem.com/e/ir?t=duncanstorepl-20&amp;l=as2&amp;o=1&amp;a=B00822JCN4</amazonImage>
+		</amazon>
+	">
+
+	<!ENTITY ReviewOfTrustLawInNewZealand "
+		<refID>ReviewOfTrustLawInNewZealand</refID>
+		<refTitle>Review of Trust Law in New Zealand: Introductory Issues Paper</refTitle>
+		<author>New Zealand Law Commission</author>
+		<source>http://www.lawcom.govt.nz/project/review-law-trusts/publication/issues-paper/2010/review-trust-law-new-zealand-introductory-is</source>
+	">
+
+	<!ENTITY SelfGoveranceThroughGroupDiscussionInWikipedia "
+		<refID>SelfGoveranceThroughGroupDiscussionInWikipedia</refID>
+		<refTitle>Self-Governance Through Group Discussion in Wikipedia : Measuring Deliberation in Online Groups</refTitle>
+		<author>Laura W. Black, Howard T. Welser, Dan Cosley and Jocelyn M. DeGroot</author>
+		<source>http://sgr.sagepub.com/content/42/5/595</source>
+		<journal>Small Group Research</journal>
+		<year>2011</year>
+		<photo></photo>
+		<amazon>
+			<image></image>
+			<amazonImage></amazonImage>
+		</amazon>
+	">
+
+	<!ENTITY TheDunbarNumberAsALimitToGroupSizes "
+		<refID>TheDunbarNumberAsALimitToGroupSizes</refID>
+		<refTitle>The Dunbar Number as a Limit to Group Sizes</refTitle>
+		<author>Christopher Allen</author>
+		<source>http://www.lifewithalacrity.com/2004/03/the_dunbar_numb.html</source>
+	">
+
+	<!ENTITY TheHiddenConnections "
+		<refID>TheHiddenConnections</refID>
+		<refTitle>The Hidden Connections: A Science for Sustainable Living</refTitle>
+		<author>Fritjof Capra</author>
+		<source>http://www.amazon.com/gp/product/0385494726/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0385494726&amp;linkCode=as2&amp;tag=duncanstorepl-20</source>
+		<amazon>
+			<image>http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=0385494726&amp;Format=_SL110_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=duncanstorepl-20</image>
+			<amazonImage>http://ir-na.amazon-adsystem.com/e/ir?t=duncanstorepl-20&amp;l=as2&amp;o=1&amp;a=0385494726</amazonImage>
+		</amazon>
+	">
+	
+	<!ENTITY ThePoliticsOfTheSolarAge "
+		<refID>ThePoliticsOfTheSolarAge</refID>
+		<refTitle>The Politics of the Solar Age: Alternatives to Economics</refTitle>
+		<author>Hazel Henderson</author>
+		<source>http://www.amazon.com/gp/product/038517151X/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=038517151X&amp;linkCode=as2&amp;tag=duncanstorepl-20</source>
+		<amazon>
+			<image>http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=0941705064&amp;Format=_SL110_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=duncanstorepl-20</image>
+			<amazonImage>http://ir-na.amazon-adsystem.com/e/ir?t=duncanstorepl-20&amp;l=as2&amp;o=1&amp;a=0941705064</amazonImage>
+		</amazon>
+	">
+	
+	<!ENTITY TheSevenDayWeekend "
+		<refID>TheSevenDayWeekend</refID>
+		<refTitle>The Seven-day Weekend: A Better Way to Work in the 21st Century </refTitle>
+		<author>Ricardo Semler</author>
+		<source>http://www.amazon.com/gp/product/0099425238/ref=as_li_ss_il?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0099425238&amp;linkCode=as2&amp;tag=duncanstorepl-20</source>
+		<amazon>
+			<image>http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=0099425238&amp;Format=_SL110_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=duncanstorepl-20</image>
+			<amazonImage>http://ir-na.amazon-adsystem.com/e/ir?t=duncanstorepl-20&amp;l=as2&amp;o=1&amp;a=0099425238</amazonImage>
+		</amazon>
+	">
+
+		
+	<!-- Entity template 
+	
+	<!ENTITY entityReference "
+		<refID></refID>
+		<refTitle></refTitle>
+		<author></author>
+		<source></source>
+		<journal></journal>
+		<year></year>
+		<photo></photo>
+		<amazon>
+			<image></image>
+			<amazonImage></amazonImage>
+		</amazon>
+	">
+	
+	-->
+]>
+
+<page>
+
+<!-- Attribution Code template
+
+<attribution>
+	<reference></reference>
+	<contributor>&PatrickDuncan;</contributor>
+	<content></content>
+</attribution>
+
+-->
+
+
+<pageImage>
+	<attribution>
+		<contributor>&PatrickDuncan;</contributor>
+		<link>images/ants.jpg</link>
+		<alt>Ants on a walkway</alt>
+	</attribution>
+</pageImage>
+
+<title>
+	<attribution>
+		<contributor>&PatrickDuncan;</contributor>
+		<content>Communities: refocus</content>
+	</attribution>
+</title>
+
+<metaDescription>
+	<attribution>
+		<contributor>&PatrickDuncan;</contributor>
+		<content>The requirements for replacing hierarchical organisations that disregard the understanding of the majority.</content>
+	</attribution>
+</metaDescription>
+
+<section>
+	<title>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>The intention</content>
+		</attribution>
+	</title>
+	<p>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Today the primary focus of many organisations is making profits for shareholders. A few people choose each organisation’s direction, while the understanding of the rest of the iceberg goes under-appreciated. Managers are expected to make decisions for their group. </content>
+		</attribution>
+		<attribution>
+			<reference>&Freakonomics;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>The individuals they are responsible for tend to suppress their opinions. </content>
+		</attribution>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Customers, despite fulfilling many of the jobs of employees, such as support and marketing, are external to the company.</content>
+		</attribution>
+	</p>
+	<p>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>However, it is possible to create for-profit and non-profit organisations whose primary focus is their customers and employees. Where rather than being separate, these groups merge, and any involvement is eligible for reimbursement. The direction is decided by shared agreement from all involved. There is little to no hierarchy, and the organisation belongs to all contributors by default.</content>
+		</attribution>
+	</p>
+</section>
+
+<section>
+	<title>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>How would it work?</content>
+		</attribution>
+	</title>
+	<p>
+		<attribution>
+			<reference>&HereComesEverybody;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Conversations only work for small groups. </content>
+		</attribution>
+		<attribution>
+			<reference>&TheDunbarNumberAsALimitToGroupSizes;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Once a conversation holds more than about nine people, </content>
+		</attribution>
+		<attribution>
+			<reference>&HereComesEverybody;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>it changes into a broadcast from a few to many. </content>
+		</attribution>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>However, large groups can work together without a hierarchy in the same way as Wikipedia. </content>
+		</attribution>
+		<attribution>
+			<reference>&HereComesEverybody;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Just like their articles, contributions are added by anyone automatically. Rather than needing prior approval, any contribution can be edited or undone by others. The overall direction is towards improvement.</content>
+		</attribution>
+		 
+		 
+		 
+		 
+	</p>
+	<p>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Ownership of organisations, like machines to be bought and sold, gives a few select people veto powers over its decisions and direction. This concentration of power creates hierarchies. Hierarchies reduce the level of investment most contributors can have in a project by constraining their ownership over their efforts. </content>
+		</attribution>
+		<attribution>
+			<reference>&OwningOurFuture;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Instead of individual shareholdings, an organisation can be owned by everyone involved, using a trust. </content>
+		</attribution>
+		<attribution>
+			<reference>&ReviewOfTrustLawInNewZealand;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Trusts are required to make decisions in the best interests of their beneficiaries, </content>
+		</attribution>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>which in our case are the employees and customers. Like a family home to be kept, the organisation accretes value but there is no price tag. </content>
+		</attribution>
+	</p>
+	<p>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>With ownership by a few removed, the direction and actions of the organisation are open for discussion by all. Organisations can’t do everything everyone wants; they require a combined agreeable plan. </content>
+		</attribution>
+		<attribution>
+			<reference>&TheHiddenConnections;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Each group is founded on their shared understanding of what they wish to accomplish within their constraints. </content>
+		</attribution>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Whether the group works to sell cakes or a film, </content>
+		</attribution>
+		<attribution>
+			<reference>&TheHiddenConnections;</reference>
+			<reference>&SelfGoveranceThroughGroupDiscussionInWikipedia;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>it is their agreement on their shared direction that limits and directs the actions of those involved. </content>
+		</attribution>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>This is why open discussion regarding their understanding of the project is important.</content>
+		</attribution>
+	</p>
+	<p>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>The role of storytellers is to reflect the group back to itself, portraying the shared direction through stories. Points of view must be challenged and combined, rather than existing separately because it is through our content that we learn.</content>
+		</attribution>
+	</p>
+	<p>
+		<attribution>
+			<reference>&Freakonomics;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Unlike traditional companies where employees tend to hint rather than speaking their mind, a lack of hierarchy allows for the free flow of information, yielding better decisions. </content>
+		</attribution>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Mistakes are no longer "bad" and to be avoided. Rather, it is repeatedly making the same mistake that is bad because then you're not learning, and wasting the resources of the group. The organisation is now structured to continually learn. </content>
+		</attribution>
+	</p>
+	<p>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>This changes the role of managers. They are no longer expected to make decisions for their groups. Rather, they facilitate people to make their own decisions; they become mentors. The outcome is that large groups can organise their efforts with minimal to no hierarchy. Combining trust ownership with a cooperative company structure allows for this. With no one holding a veto card over the heads of others, the ideas that succeed are those that gather the most support. Decisions will have access to information that individuals currently withhold.</content>
+		</attribution>
+	</p>
+	<p>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>We can now break the boundary between “employees” and “customers”, just like the open-source communities that create Wikipedia, Linux, Drupal and Firefox. Customers are a crucial but voluntary part of any endeavour’s success. They volunteer their money, reviews, support and feedback in return for services they wish to use. Similarly, the heart and soul of employees cannot be contracted but only volunteered. Normally, customers and employees are not considered on the same team, but with the cooperative held by a trust, these two groups are integrated as equal and voluntary partners.</content>
+		</attribution>
+	</p>
+	<p>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Individuals create a portfolio of contributions that reimburses them over time. Baking and selling cakes would reimburse you this week, but redesigning the menus would reimburse you over years. Reimbursement is based primarily on the impact of the work. The more successful the cake store, the greater reimbursement available to those involved. Therefore, it’s in the interests of individuals to work together to make something worthwhile. Rather than just fulfilling roles, individuals can invest their passion.</content>
+		</attribution>
+	</p>
+</section>
+
+<section>
+	<title>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>The outcome</content>
+		</attribution>
+	</title>
+	<p>
+		<attribution>
+			<reference>&OwningOurFuture;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Our organisations are no longer profit driven for a few shareholders, but instead aim for a surplus that supports their sustainability. </content>
+		</attribution>
+		<attribution>
+			<reference>&ThePoliticsOfTheSolarAge;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>With ownership of the company no longer exchanged for money, investment is raised using bonds, the same as governments. </content>
+		</attribution>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Money is no longer a leash; it becomes no different than any other resource. </content>
+		</attribution>
+	</p>
+	<p>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Our organisations become worthy of our trust again. They can no longer be sub-diverted by a few at the expense of others. </content>
+		</attribution>
+		<attribution>
+			<reference>&EdwardSnowdenNSADisclosures;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>In the wake of Edward Snowdon’s NSA revelations, </content>
+		</attribution>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>which browser company would you regard as the most trustworthy: Microsoft’s Internet Explorer, Apple’s Safari, Google’s Chrome or the open-source code community of Mozilla’s Firefox?</content>
+		</attribution>
+	</p>
+	<p>
+		<attribution>
+			<reference>&TheSevenDayWeekend;</reference>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Instead of being told what to do, we treat each other as adults capable of electing governments, committing to mortgages and choosing to have kids. We are capable of making decisions for ourselves within the constraints of our group’s shared vision. </content>
+		</attribution>
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Our organisations, rather than being owned by others like machines, become children to be nurtured by all. </content>
+		</attribution>
+	</p>
+</section>
+
+<footer>
+	
+		<attribution>
+			<contributor>&PatrickDuncan;</contributor>
+			<content>Share your thoughts. Click the comment speech bubbles beside each paragraph. Improvements will be incorporated and attributed to you, and then the comment deleted. </content>
+		</attribution>
+	
+</footer>
+
+</page>

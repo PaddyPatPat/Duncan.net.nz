@@ -1,0 +1,230 @@
+$indentation: 2em
+$line-height: 1.5em
+$max-width: 30em
+$min-width: 25em
+
+html
+  :height 100%
+
+#contentsBox
+  @media screen and (max-device-width: 480px)
+    :display none
+  @media screen and (min-device-width: 481px)
+    :display inline-block
+    :vertical-align top
+    :width 18%
+
+#contents
+  :margin-top 5em
+
+
+#documentBox
+  :display inline-block
+  :vertical-align top
+  @media screen and (min-device-width: 481px)
+    :width 61%
+
+#document
+  :display inline-block
+  @media screen and (max-device-width: 480px)
+    :width 90%
+  @media screen and (min-device-width: 481px)
+    :margin-left 4em
+    :width $max-width
+    :font-size 1.05em
+
+#referencesListBox
+  @media screen and (max-device-width: 480px)
+    :display none
+  @media screen and (min-device-width: 481px)
+    :display inline-block
+    :vertical-align top
+    :width 20%
+
+#page
+  :position relative
+  :margin 1em
+  :height 100%
+
+#pageTitle
+  @media screen and (max-device-width: 480px)
+    :width 100%
+  @media screen and (min-device-width: 481px)
+  :position relative
+  :width 100%
+  :height 85%
+
+
+
+#pageImage
+  @media screen and (max-device-width: 480px)
+    :width 100%
+  @media screen and (min-device-width: 481px)
+    :position absolute
+    :width 100%
+    :bottom 0%
+
+body
+  :margin 0em
+  :font-size 1em
+  :font-family Georgia, "Times New Roman", Times, serif
+  @media screen and (min-device-width: 481px)
+    :height 100%
+
+h1, h2, h3, h4, h5, h6
+  :font-family Book Antiqua, Palatino Linotype, serif
+
+h1
+  :position absolute
+  :margin-left 18%
+  :margin-right 15%
+  :color #FEFEFE
+  :text-shadow 1px 1px 1px #000000
+  @media screen and (max-device-width: 480px)
+    :top 20%
+    :font-size 2.5em
+  @media screen and (min-device-width: 481px)
+    :top 65%
+    :font-size 3em
+
+h2
+  :font-size 2.2em
+
+h3
+  :font-size 1.6em
+  :margin-top 0.5em
+
+h4,
+h5,
+h6
+  :font-size 1.3em
+
+p
+  /* :max-width $max-width */
+  :margin-left $indentation
+  :line-height $line-height
+
+li
+  :line-height $line-height
+
+
+.no-dot
+  :list-style-type none
+  :margin 1em
+
+/* Classes of content */
+
+.refID
+  :color #000099
+
+.refID:hover,
+.conID:hover
+  @media screen and (min-device-width: 481px)
+    :-webkit-transition color 0.15s ease-in
+    :-moz-transition color 0.15s ease-in
+    :-o-transition color 0.15s ease-in
+    :transition color 0.15s ease-in
+    :color #009900
+  
+
+
+/* Questions and Answers */
+
+#question
+  :display block
+
+#answer
+  :display block
+
+#comment
+  :display block
+
+/* Examples */
+
+#examples
+  :border-left 1em solid #6699CC
+  :padding 1em
+  :margin-left $indentation
+  :width $max-width
+
+#method #examples
+  :margin-left 0
+
+/* Method */
+
+#method
+  :border-left 1em solid #996600
+  :padding 1em
+  :margin-left $indentation
+  :width $max-width
+
+#method li
+  :margin 1em
+
+#examples #method
+  :margin-left 0
+
+#method #method
+  :border none
+
+/* System */
+
+#system
+  :padding 1em
+  :background-color #DDDDCC
+  :margin-left $indentation
+  :width $max-width
+
+#system li
+  :margin 1em
+
+/* Resource */
+
+#resource
+  :padding 1em
+  :border-left 1em solid #99FF99
+  :max-width 20em
+  :margin-top 0.5em
+  :margin-bottom 0.5em
+  :margin-left $indentation
+  :width $max-width - 10
+
+/* Tips */
+
+#tips
+  :padding 1em
+  :background-color #DDCCDD
+  :border solid 0px
+  :border-radius 1.5em
+  :margin-top 0.5em
+  :margin-bottom 0.5em
+  :margin-left $indentation
+  :width $max-width
+
+/* Contributors & References */
+
+
+#referenceList
+  :height 100%
+  :overflow auto
+  :margin 1em
+  :padding 1em
+  :line-height $line-height
+
+#reference
+  :margin 0.3em
+  :padding 0.3em
+  :border solid 1px #AAAAAA
+
+.Amazon
+  :float right
+
+.refHover
+  :background-color #DDEEFF
+
+.conHover a
+  :color #009900
+  :-webkit-transition color 0.15s ease-in
+  :-moz-transition color 0.15s ease-in
+  :-o-transition color 0.15s ease-in
+  :transition color 0.15s ease-in

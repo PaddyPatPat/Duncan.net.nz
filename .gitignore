@@ -1,0 +1,11 @@
+
+# Folders to ignore.
+collaboratives/
+drupalTesting/
+Old/
+projects/
+thirstmag/
+
+# Files to ignore.
+.htaccess
+
