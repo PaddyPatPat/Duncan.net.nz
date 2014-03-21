@@ -1,0 +1,10 @@
+# SecFilterEngine Off
+# SecFilterScanPOST Off
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.html?$ / [NC,R,L]
+
+# Redirects
+Redirect 301 /loomio.xml /loomio/

@@ -7,5 +7,5 @@ projects/
 thirstmag/
 
 # Files to ignore.
-.htaccess
+# .htaccess
 
